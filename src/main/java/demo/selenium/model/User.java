@@ -1,6 +1,9 @@
 package demo.selenium.model;
 
 public class User {
+    private String username;
+    private String password;
+
     public String getUsername() {
         return username;
     }
@@ -9,8 +12,6 @@ public class User {
         this.username = username;
     }
 
-    private String username;
-
     public String getPassword() {
         return password;
     }
@@ -18,7 +19,4 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-
-    private String password;
-
 }
